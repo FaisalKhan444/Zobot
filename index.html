@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Natura Water | Chatbot Testing</title>
+
+    <meta name="description" content="Natura Water AI chatbot alpha testing page">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f8fc;
+            color: #172b40;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 22px 7%;
+            border-bottom: 1px solid #e5eaf0;
+        }
+
+        .brand {
+            font-size: 23px;
+            font-weight: 800;
+            color: #147d72;
+        }
+
+        .brand span {
+            color: #243b53;
+        }
+
+        main {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .content {
+            width: 100%;
+            max-width: 680px;
+            text-align: center;
+        }
+
+        .label {
+            display: inline-block;
+            padding: 9px 17px;
+            border-radius: 30px;
+            background: #e2f5f0;
+            color: #147d72;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: clamp(35px, 6vw, 55px);
+            line-height: 1.15;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #168b7d;
+        }
+
+        .description {
+            color: #64748b;
+            font-size: 17px;
+            line-height: 1.8;
+            margin-bottom: 35px;
+        }
+
+        .chat-panel {
+            background: #ffffff;
+            padding: 32px 25px;
+            border-radius: 18px;
+            border: 1px solid #e5eaf0;
+            box-shadow: 0 12px 40px rgba(30, 60, 90, 0.07);
+        }
+
+        .chat-symbol {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 18px;
+            border-radius: 18px;
+            background: #e2f5f0;
+            color: #147d72;
+            font-size: 30px;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .chat-panel p {
+            color: #64748b;
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        .hint {
+            margin-top: 22px;
+            padding: 15px;
+            background: #f0fdfa;
+            border-radius: 10px;
+            color: #147d72;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            color: #94a3b8;
+            font-size: 13px;
+            border-top: 1px solid #e5eaf0;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 18px 5%;
+            }
+
+            main {
+                padding: 35px 18px;
+            }
+
+            .description {
+                font-size: 15px;
+            }
+
+            .chat-panel {
+                padding: 27px 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+            Natura <span>Water</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="content">
+
+            <div class="label">
+                CHATBOT ALPHA TESTING
+            </div>
+
+            <h1>
+                Welcome to<br>
+                <span>Natura Water</span>
+            </h1>
+
+            <p class="description">
+                Meet our AI-powered assistant.
+                Ask questions, explore Natura Water products
+                and test the chatbot experience.
+            </p>
+
+            <div class="chat-panel">
+
+                <div class="chat-symbol">✦</div>
+
+                <h2>How can we help you?</h2>
+
+                <p>
+                    Our virtual assistant is ready to answer
+                    your questions. Open the chat window
+                    in the bottom-right corner to begin.
+                </p>
+
+                <div class="hint">
+                    Chat with our assistant to start testing.
+                    Your feedback will help us improve the experience.
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        Natura Water | AI Chatbot Alpha Testing
+    </footer>
+
+    <!-- EXACT ZOHO SALESIQ BRAND INITIALIZATION -->
+    <script>
+        window.$zoho = window.$zoho || {};
+        $zoho.salesiq = $zoho.salesiq || {
+            ready: function () {}
+        };
+    </script>
+
+    <!-- EXACT NATURA WATER SALESIQ WIDGET -->
+    <script
+        id="zsiqscript"
+        src="https://salesiq.zohopublic.com/widget?wc=siqe385ff0065f6e21037de99fa1cd61614664d5b6b251d046f3211d7da610093e2"
+        defer
+    ></script>
+
+</body>
+</html>
